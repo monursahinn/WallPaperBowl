@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Wallpaper Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="../../img/logo.png" alt="Wallpaper Bowl Logo">
+                <h1 style="cursor: pointer;" onclick="window.location.href=href='../../homepage.html';">Wallpaper Bowl
+                </h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../../homepage.html">Home</a></li>
+                    <li><a href="../categories/categories.html">Categories</a></li>
+                    <li><a href="../latest/latest.html">Latest Wallpapers</a></li>
+                    <li><a href="../top-rated/top-rated.html">Top-rated Wallpapers</a></li>
+                    <li><a href="../about/about.html">About Us</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="wallpaper-container">
+        </div>
+        <div id="pagination">
+        </div>
+    </main>
+
+    <div id="modal" class="modal">
+        <span id="close-modal" class="close">&times;</span>
+        <img id="modal-content" class="modal-content">
+        <div id="caption" class="caption"></div>
+    </div>
+
+    <script src="scripts.js"></script> 
+</body>
+</html>
